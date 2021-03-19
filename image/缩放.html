@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box1{
+        width:100px;
+        height:100px;
+        background-color:#bfa;
+        transition:2s;
+        margin:100px auto;
+        transform-origin:20px 20px;
+        }
+        .box1:hover{
+        transform:scale(2)}
+        .img-wrapper{
+        width:200px;
+        height:200px;
+        border:1px red solid;
+        overflow:hidden;
+        }
+        img{
+        transition: .2s;
+        }
+        .img-wrapper:hover img{
+        transform:scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+<div class="img-wrapper">
+    <img src="../css/1.jpeg" width="100%">
+</div>
+</body>
+</html>
